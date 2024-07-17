@@ -34,64 +34,6 @@
             endingLineNumber = "45"
             landmarkName = "save(scrums:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3CE730DE-5B8E-43DE-8DAF-23034E1637A9 - 490fd298acbbd14e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for ScrumListApp.ScrumStore.save(scrums: Swift.Array&lt;ScrumListApp.DailyScrum&gt;) async throws -&gt; ()"
-                  moduleName = "ScrumListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/ScrumStore.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45">
-               </Location>
-               <Location
-                  uuid = "3CE730DE-5B8E-43DE-8DAF-23034E1637A9 - 7e5f3e2ca913a3bf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for ScrumListApp.ScrumStore.save(scrums: Swift.Array&lt;ScrumListApp.DailyScrum&gt;) async throws -&gt; ()"
-                  moduleName = "ScrumListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/ScrumStore.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45">
-               </Location>
-               <Location
-                  uuid = "3CE730DE-5B8E-43DE-8DAF-23034E1637A9 - 98b7530a0db8128c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for ScrumListApp.ScrumStore.save(scrums: Swift.Array&lt;ScrumListApp.DailyScrum&gt;) async throws -&gt; ()"
-                  moduleName = "ScrumListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/ScrumStore.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45">
-               </Location>
-               <Location
-                  uuid = "3CE730DE-5B8E-43DE-8DAF-23034E1637A9 - 36c93b5423974ed"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for ScrumListApp.ScrumStore.save(scrums: Swift.Array&lt;ScrumListApp.DailyScrum&gt;) async throws -&gt; ()"
-                  moduleName = "ScrumListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/ScrumStore.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -108,48 +50,66 @@
             endingLineNumber = "37"
             landmarkName = "save(scrums:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FAB1398-DCD9-4BCC-85F2-929BBDDB721A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../var/folders/j6/f091sv0903906sxdg914y9_c0000gs/T/swift-generated-sources/@__swiftmacro_12ScrumListApp33_997F8FC3906963E6544719DA396C9395Ll7PreviewfMf0_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "$s12ScrumListApp33_997F8FC3906963E6544719DA396C9395Ll7PreviewfMf0_15PreviewRegistryfMu_"
+            landmarkType = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FC9AF38-0AA9-4239-81B5-E2CD3555B957"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrumListApp/Views/ErrorView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "body"
+            landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "45C5F98E-41BC-43BB-8BDD-DD346BCF3DB3 - 490fd298acbbd0b5"
+                  uuid = "5FC9AF38-0AA9-4239-81B5-E2CD3555B957 - a7fba1cc35c0f307"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for ScrumListApp.ScrumStore.save(scrums: Swift.Array&lt;ScrumListApp.DailyScrum&gt;) async throws -&gt; ()"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ScrumListApp.ErrorView.body.getter : some"
                   moduleName = "ScrumListApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/ScrumStore.swift"
+                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/Views/ErrorView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38">
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
                </Location>
                <Location
-                  uuid = "45C5F98E-41BC-43BB-8BDD-DD346BCF3DB3 - b54cdb24b4b9ce96"
+                  uuid = "5FC9AF38-0AA9-4239-81B5-E2CD3555B957 - cc112a70fc3cc2a2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable () async throws -&gt; () in ScrumListApp.ScrumStore.save(scrums: Swift.Array&lt;ScrumListApp.DailyScrum&gt;) async throws -&gt; ()"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ScrumListApp.ErrorView.body.getter : some"
                   moduleName = "ScrumListApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/ScrumStore.swift"
+                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/Views/ErrorView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38">
-               </Location>
-               <Location
-                  uuid = "45C5F98E-41BC-43BB-8BDD-DD346BCF3DB3 - 29ebb308913557fb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in ScrumListApp.ScrumStore.save(scrums: Swift.Array&lt;ScrumListApp.DailyScrum&gt;) async throws -&gt; ()"
-                  moduleName = "ScrumListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/swapnilshinde/Documents/GitHub/Personal/ScrumListApp/ScrumListApp/ScrumStore.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38">
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
                </Location>
             </Locations>
          </BreakpointContent>

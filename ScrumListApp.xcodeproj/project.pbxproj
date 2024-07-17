@@ -35,6 +35,12 @@
 		36EC388C2C47BD4900039379 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC388B2C47BD4900039379 /* History.swift */; };
 		36EC388E2C47C13300039379 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC388D2C47C13300039379 /* UserStore.swift */; };
 		36EC38902C47D50D00039379 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC388F2C47D50D00039379 /* ScrumStore.swift */; };
+		36EC38932C47DCE000039379 /* ScrumsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC38922C47DCE000039379 /* ScrumsList.swift */; };
+		36EC38952C47E10900039379 /* ScrumsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC38942C47E10900039379 /* ScrumsStackView.swift */; };
+		36EC38982C47EF6200039379 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC38972C47EF6200039379 /* ErrorWrapper.swift */; };
+		36EC389A2C47EFB500039379 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC38992C47EFB500039379 /* ErrorView.swift */; };
+		36EC389C2C47FED600039379 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC389B2C47FED600039379 /* MeetingTimerView.swift */; };
+		36EC389E2C48009700039379 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC389D2C48009700039379 /* SpeakerArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +92,12 @@
 		36EC388B2C47BD4900039379 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		36EC388D2C47C13300039379 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		36EC388F2C47D50D00039379 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		36EC38922C47DCE000039379 /* ScrumsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsList.swift; sourceTree = "<group>"; };
+		36EC38942C47E10900039379 /* ScrumsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsStackView.swift; sourceTree = "<group>"; };
+		36EC38972C47EF6200039379 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		36EC38992C47EFB500039379 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		36EC389B2C47FED600039379 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		36EC389D2C48009700039379 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +173,6 @@
 				3656A0F72C43D4340075ADEE /* Assets.xcassets */,
 				36EC38872C47B90600039379 /* Resources */,
 				3656A0F92C43D4340075ADEE /* Preview Content */,
-				36EC388F2C47D50D00039379 /* ScrumStore.swift */,
 			);
 			path = ScrumListApp;
 			sourceTree = "<group>";
@@ -204,6 +215,11 @@
 				367245A72C4681D5007A9921 /* MeetingHeaderView.swift */,
 				367245AF2C4688BD007A9921 /* MeetingFooterView.swift */,
 				36EC38892C47B9CA00039379 /* NewScrumSheet.swift */,
+				36EC38922C47DCE000039379 /* ScrumsList.swift */,
+				36EC38942C47E10900039379 /* ScrumsStackView.swift */,
+				36EC38992C47EFB500039379 /* ErrorView.swift */,
+				36EC389B2C47FED600039379 /* MeetingTimerView.swift */,
+				36EC389D2C48009700039379 /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,12 +236,14 @@
 		3656A1312C442EB70075ADEE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				36EC388F2C47D50D00039379 /* ScrumStore.swift */,
 				36EC38842C47B8F900039379 /* AVPlayer+Ding.swift */,
 				3656A12F2C442EB70075ADEE /* DailyScrum.swift */,
 				3656A1302C442EB70075ADEE /* Theme.swift */,
 				367245AD2C468531007A9921 /* ScrumTimer.swift */,
 				36EC388B2C47BD4900039379 /* History.swift */,
 				36EC388D2C47C13300039379 /* UserStore.swift */,
+				36EC38972C47EF6200039379 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -383,11 +401,16 @@
 				3656A12E2C442EB20075ADEE /* TrailingIconLabelStyle.swift in Sources */,
 				3646A24E2C44F15700CE1B73 /* BinarySearch.swift in Sources */,
 				3656A1292C442EA20075ADEE /* ScrumsView.swift in Sources */,
+				36EC38952C47E10900039379 /* ScrumsStackView.swift in Sources */,
 				36EC388A2C47B9CA00039379 /* NewScrumSheet.swift in Sources */,
 				3656A0F42C43D4330075ADEE /* ScrumListAppApp.swift in Sources */,
 				36EC388C2C47BD4900039379 /* History.swift in Sources */,
 				3656A1322C442EB70075ADEE /* DailyScrum.swift in Sources */,
+				36EC389A2C47EFB500039379 /* ErrorView.swift in Sources */,
+				36EC389E2C48009700039379 /* SpeakerArc.swift in Sources */,
+				36EC38932C47DCE000039379 /* ScrumsList.swift in Sources */,
 				3656A12A2C442EA20075ADEE /* ThemePicker.swift in Sources */,
+				36EC38982C47EF6200039379 /* ErrorWrapper.swift in Sources */,
 				36EC388E2C47C13300039379 /* UserStore.swift in Sources */,
 				367245A82C4681D5007A9921 /* MeetingHeaderView.swift in Sources */,
 				367245B02C4688BD007A9921 /* MeetingFooterView.swift in Sources */,
@@ -397,6 +420,7 @@
 				36EC38902C47D50D00039379 /* ScrumStore.swift in Sources */,
 				36EC38852C47B8F900039379 /* AVPlayer+Ding.swift in Sources */,
 				36424DF92C44BC8800A381FB /* ListContiner.swift in Sources */,
+				36EC389C2C47FED600039379 /* MeetingTimerView.swift in Sources */,
 				3656A12B2C442EA20075ADEE /* ThemeView.swift in Sources */,
 				3656A1262C442EA20075ADEE /* DetailEditView.swift in Sources */,
 			);
@@ -570,6 +594,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,6 +624,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

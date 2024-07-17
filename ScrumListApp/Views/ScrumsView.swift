@@ -16,37 +16,12 @@ struct ScrumsView: View {
     let saveAction: () -> Void
     
     var body: some View {
-        NavigationStack{
-            List($scrums){ $scrum in
-                NavigationLink(destination: DetailView(scrum: $scrum)) {
-                    CardView(scrum: scrum)
-                }
-                .listRowBackground(scrum.theme.mainColor)
+        if #available(iOS 16, *) {
+            ScrumsStackView(scrums: $scrums, saveAction: saveAction) 
+        }else {
+            NavigationView{
+                ScrumsList(scrums: $scrums)
             }
-            .onAppear(perform: {
-              print(binarySearch([12, 22, 45, 67, 96],67))
-              print(sortAcending([12, 22, 45, 67, 96]))
-                print(sortDecending([12, 22, 45, 67, 96]))
-                print(getFibonnaci(3))
-                
-                
-            })
-            .navigationTitle("Daily Scrum")
-            .toolbar{
-                Button(action: {
-                    isPresentingNewScrumView = true
-                }, label: {
-                    Image(systemName: "plus")
-                })
-                .accessibilityLabel("New Scrum")
-            }
-        }
-        .sheet(isPresented: $isPresentingNewScrumView, content: {
-            NewScrumSheet(scrums: $scrums, isPresentingNewScrumView: $isPresentingNewScrumView)
-        })
-        .onChange(of: scenePhase) { oldValue, newValue in
-            
-            if newValue == .inactive{ saveAction() }
         }
     }
 }
