@@ -10,6 +10,7 @@ import SwiftUI
 struct CardView: View {
     
     let scrum : DailyScrum
+    @ScaledMetric( relativeTo: .headline)  var paddingWidth = 12
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -27,7 +28,7 @@ struct CardView: View {
             }
             .font(.caption)
         }
-        .padding()
+        .padding(paddingWidth)
         .foregroundColor(scrum.theme.accentColor)
     }
 }
@@ -39,7 +40,7 @@ struct CardView_Previews : PreviewProvider{
     static var previews: some View{
         CardView(scrum: scrum)
             .background(scrum.theme.mainColor)
-            .previewLayout(.fixed(width: 400, height: 60))
+            .previewLayout(.fixed(width: 400, height: 120))
     }
     
     
